@@ -60,3 +60,4 @@ wordCounts.collect()
 linesWithSpark.cache()
 ```
 
+# Self-Contained Applications
