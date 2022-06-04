@@ -20,7 +20,7 @@ that is an entry point to your application, and all operations are executed on w
 managed by Cluster Manager.
 
 
-![spark architecture](spark-cluster-overview.png)
+![spark architecture](images/spark-cluster-overview.png)
 
 
 # Cluster Manager Types
@@ -90,7 +90,7 @@ linesWithSpark.cache()
 # Spark History Server
 Spark History servers, keep a log of all Spark application you submit by spark-submit
 
-![spark history server](spark-history-server.png)
+![spark history server](images/spark-history-server.png)
 
 # RDD
 
