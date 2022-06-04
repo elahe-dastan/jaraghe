@@ -7,7 +7,7 @@ sc = SparkContext(conf=conf)  # which tells Spark how to access a cluster.
 data = [1, 2, 3, 4, 5]
 distData = sc.parallelize(data)  # the distributed dataset can be operated on in parallel
 
-distFile = sc.textFile("data.txt")
+distFile = sc.textFile("data/data.txt")
 print(distFile.map(lambda s: len(s)).reduce(lambda a, b: a + b))
 
 pairs = distFile.map(lambda s: (s, 1))
