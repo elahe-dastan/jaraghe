@@ -1,4 +1,4 @@
-# jaraghe
+# jaraghe :collision:
 
 I use this project to learn Spark and newer technologies, this is not in code 101 because I usually come back to the 
 codes and file like this and finding a repository is much easier than finding a file in a big repository.
