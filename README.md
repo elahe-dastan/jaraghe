@@ -24,10 +24,12 @@ managed by Cluster Manager.
 
 
 # Cluster Manager Types
+
 1.Standalone
 2.Mesos
 3.YARN
-**4.Kubernetes**
+4.**Kubernetes**
+
 5.local: not really a cluster manager, but we use it to run Spark on laptop
 
 # Install and Run Spark
